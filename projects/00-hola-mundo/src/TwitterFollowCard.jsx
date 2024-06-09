@@ -13,7 +13,7 @@ export function TwitterFollowCard({userName, name}){
     const handleClick = () =>{
         setIsFollowing(!isFollowing)
     }
-    
+    // los comentarios dentro del return no son buena práctica, en este caso comentamos con fin educativo
     return (
         <article className='tw-followCard'>
                 <header className='tw-followCard-header'>
